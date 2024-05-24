@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'oxanium', cursive;
+  background-size: 500% 100%;
+  box-shadow: -2px 3px 0 #000000, -4px 6px 0 #222;
+ 
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  
+}
+
+.box-degrade {
+  width: 100%;
+  padding: 400px ;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #006400;
+  background-size: 500% 100%;
+
+}
+
+
+.content {
+  text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+input {
+  margin: 10px;
+  padding: 6px;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #3a444d;
+  font-size: 16px;
+  box-shadow: -3px 4px 0 #222 ;
+  width: 100%;
+  top: 65%;
+  left: 13.5%;
+}
+
+button {
+  width: 50%;
+  padding: 10px 20px;
+  border: 2px solid #222;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  background-color: rgb(214, 209, 209);
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #222;
+ 
+  }
+
+button:active{
+  box-shadow: inset -4px 4px 0 #006400;
+  font-size: 0.9rem ;
+
+}
